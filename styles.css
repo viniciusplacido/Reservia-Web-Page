@@ -1,0 +1,69 @@
+
+/***************/
+/* Variables
+/***************/
+
+:root {
+    --ff-primary: "Raleway", Helvetica, Arial, sans-serif;
+    --clr-blue: #0065FC;
+    --clr-blue-light: #DEEBFF;
+    --clr-grey: #F2F2F2;
+    --clr-white:#F5F5F5;
+    
+}
+
+/***************/
+/* General styles
+/***************/
+
+body {
+    background-color: var(--clr-white);
+    font-family: var(--ff-primary);
+}
+
+li {
+    list-style-type: none;
+  }
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: var(--clr-blue);
+}
+
+/***************/
+/* Menu
+/***************/
+
+
+.menu-bg {
+    background-color: var(--clr-white);
+    font-family: var(--ff-primary);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.menu__logo {
+    margin: 10px;    
+}
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.nav__link {
+    padding: 20px 10px;
+}
+
